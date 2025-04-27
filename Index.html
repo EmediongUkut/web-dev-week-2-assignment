@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<body>
+    <h2>Assignment</h2>
+    <h3>Supplement Ordered lists</h3>
+    <ol type="i">
+        <li>Mfon Abasi</li>
+        <li>Emediong Ukut</li>
+        <li>Ekene Okoye</li>
+        <li>Uboho Raph</li>
+        <li>Etiene Okodi</li>
+    </ol>
+    <h3>Pexel image</h3>
+    <img src="https://images.pexels.com/photos/5910956/pexels-photo-5910956.jpeg?auto=compress&cs=tinysrgb&w=400" alt="pharmacy" height="300" width="500">
+    <h3>Contact Information</h3>
+    <table border ="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Emediong Ukut</td>
+                <td>Lagos, Nigeria</td>
+                <td>+234 7076076</td>
+                <td>emediongukut2@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Mfon Abasi</td>
+                <td>Uyo, Akwa Ibom, Nigeria</td>
+                <td>+234 707607</td>
+                <td>mfon@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Ekene Okoye</td>
+                <td>Yaba, Lagos, Nigeria</td>
+                <td>+234 70760766</td>
+                <td>ekene@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Uboho Raph</td>
+                <td>port harcourt, Nigeria</td>
+                <td>+234 7076073</td>
+                <td>ub@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Etiene Abasi</td>
+                <td>Uyo, Akwa Ibom, Nigeria</td>
+                <td>+234 70760784</td>
+                <td>eti@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Registration Form</h3>
+    <form action="method">
+        <label for="full_name">Full Name:</label>
+        <input type="text" id="full_name" placeholder="Enter your full names here" required>
+        <br><br>
+        <!-- Email Field -->
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+        <!-- Date Field -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+            <!-- Radio Buttons -->
+            <div class="form-group">
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>   
+                <br><br>
+            <!-- Dropdown Field -->
+        <div class="form-group">
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="usa">United States</option>
+                <option value="canada">Canada</option>
+                <option value="uk">United Kingdom</option>
+                <option value="india">India</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Namibia">Namibia</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Sudan">Sudan</option>
+                <option value="Congo">Congo</option>
+            <div></div>
+                <br><br>
+     <!-- Checkboxes -->
+     <div class="form-group">
+        <label>Preferences:</label>
+        <input type="checkbox" id="newsletter" name="newsletter">
+        <label for="newsletter">Subscribe to newsletter</label>
+        <br><br>
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the terms and conditions</label>
+        <br><br>
+    <!-- Submit Button -->
+    <button type="submit">Register</button>       
+    </form>
+</body>
+</html>
